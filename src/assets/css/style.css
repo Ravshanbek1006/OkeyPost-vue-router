@@ -365,6 +365,14 @@ body {
     object-fit: cover;
   }
   @media screen and (max-width: 992px) {
+    nav form {
+      margin-bottom: 20px;
+    }
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
     h3 {
       font-size: 2rem;
     }
@@ -393,17 +401,76 @@ body {
   @media screen and (max-width: 576px) {
     h3 {
       font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     header h1 {
       font-size: 2rem;
       margin-top: 20px;
+      text-align: center;
     }
     header p {
       font-size: 1rem;
     }
+    nav form {
+      margin-bottom: 20px;
+    }
     .servises .border-r {
       border: none;
       margin-bottom: 20px;
+    }
+    .aksiya h4 {
+      text-align: center !important;
+    }
+    .aksiya p {
+      text-align: center;
+    }
+    .marketing h3, h6, p {
+      text-align: center;
+    }
+    .m-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .vibor h3 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .marketing button {
+      margin: 0 auto !important;
+    }
+    .variant-box {
+      padding: 10px;
+    }
+    .item-variant {
+      padding: 0 20px;
+    }
+    .dastavka h3 {
+      text-align: center;
+    }
+    .dastavka .form-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+    .text-box h3 {
+      text-align: center;
+    }
+    footer div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    h4,p{
+      text-align: center !important;
     }
   }
 

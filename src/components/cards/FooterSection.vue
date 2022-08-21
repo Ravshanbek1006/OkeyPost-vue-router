@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-lg-3 col-md-6 col-sm-12 py-3 ">
         <a href="#"><img src="@/assets/imgs/Лого.png" alt="Logo" width="190px"></a>
-        <div class="d-flex mt-4 ">
+        <div class="d-flex mt-4 d-flex flex-row ">
           <div> <a href="#"> <img src="@/assets/imgs/Ватсап.png" alt="rasm topilmadi"></a></div>
           <div><a href="#"> <img src="@/assets/imgs/Вайбер.png" alt=""></a></div>
           <div><a href="#"><img src="@/assets/imgs/Чат.png" alt=""></a></div>

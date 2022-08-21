@@ -1,12 +1,14 @@
 <template>
 <div>
-  <section class="container dastavka my-5 py-5">
+  <section class="container dastavka my-5">
     <div class="row">
-      <div class="col-lg-7 py-3">
-        <h3>OkeyPost удобная и быстрая доставка посылок из Великобритании </h3>
+      <div class="col-lg-7">
+        <h3 class="text-lg-start text-md-center text-sm-center">OkeyPost удобная и быстрая доставка посылок из
+          Великобритании </h3>
       </div>
-      <div class="col-lg-6 py-3">
-        <p>Рассчитайте стоимость доставки : Англии к вам домой. Мы получим ваши посылки на складе, при необходимости
+      <div class="col-lg-6">
+        <p class="text-lg-start text-md-center text-sm-center">Рассчитайте стоимость доставки : Англии к вам домой. Мы
+          получим ваши посылки на складе, при необходимости
           объединим несколько доставок в одну и отправим их к вам надежно упакованными.</p>
       </div>
     </div>
@@ -37,7 +39,7 @@
           </div>
           <div class="box-item">
             <h6>Вес посылки:</h6>
-            <label for="Вес"><img src="@/assets/imgs/Barbell.png" alt="icon" style="width: 20px ;"></label>
+            <label for="Вес"><img src="imgs/Barbell.png" alt="icon" style="width: 20px ;"></label>
             <input type="text" name="Вес" id="Вес" placeholder="0,5">
             <hr>
           </div>

@@ -8,7 +8,7 @@
               в UK одежду,
               обувь, гаджеты известных брендов и безопасно отправлять вещи в Россию.
             </p>
-            <button-btn>Получить адрес в UK</button-btn>
+           <div class="m-box"> <button-btn>Получить адрес в UK</button-btn></div>
           </div>
           <div class="col-lg-6 col-md-12 col-sm-12 py-5">
             <img src="@/assets/imgs/Иллюстрация.png" alt="rasm topilmadi">
@@ -21,16 +21,17 @@
 
   <gradient-box>
      <div class="row ">
-          <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center align-items-center p-5">
-            <img src="@/assets/imgs/fon-img.png" alt="icon">
+           <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center align-items-center">
+            <img width="100%" style="object-fit:cover ;" src="@/assets/imgs/fon-img.png" alt="icon">
           </div>
-          <div class="col-lg-8 col-md-8 col-sm12 d-flex flex-column justify-content-center p-5 ">
+          <div class="col-lg-8 col-md-8 col-sm12  p-5 ">
             <h4>
               Поручите нашим мастерам шопинга оформить заказы в английских магазинах и освободите время для более важных
               дел.
             </h4>
-            <p>Такой способ покупки также подойдёт, если магазин принимает только английские карты.</p>
-            <button-btn>Попробовать</button-btn>
+            <p style="margin-top:20px; text-align: start;">Такой способ покупки также подойдёт, если магазин принимает только английские
+              карты.</p>
+            <div class="m-box"><button class="btn-okey ">Попробовать </button></div>
           </div>
         </div>
   </gradient-box>
@@ -41,15 +42,15 @@
 
   <gradient-box>
     <div class="row ">
-          <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center p-5">
-            <img src="@/assets/imgs/boximg.png" alt="icon">
+          <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center p-5">
+            <img src="@/assets/imgs/box-img.png" alt="icon">
           </div>
-          <div class="col-lg-8 col-md-12 col-sm-12 d-flex flex-column justify-content-center p-5 ">
+          <div class="col-lg-8 col-md-6 col-sm12 d-flex flex-column justify-content-center p-5 ">
             <h4>
               Виртуальный тур по нашему складу в реальном времени
             </h4>
-            <p>Вы можете всегда посмотреть на нашу слаженую работу на складе.</p>
-            <button class="btn-okey ">Попробовать </button>
+            <p style="text-align: start;">Вы можете всегда посмотреть на нашу слаженую работу на складе.</p>
+           <div class="m-box"><button-btn>Попробовать</button-btn></div>
           </div>
         </div>
   </gradient-box>

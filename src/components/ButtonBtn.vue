@@ -1,5 +1,5 @@
 <template>
-   <button  class="btn-okey"><slot> </slot></button>
+  <div class="m-box"> <button  class="btn-okey"><slot> </slot></button></div>
 </template>
 
 <script>
