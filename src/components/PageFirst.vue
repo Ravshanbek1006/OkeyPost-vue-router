@@ -59,7 +59,7 @@
 
   <choise-info> </choise-info>
 
-  <gradient-box>
+  <gradient-box class="my-5 pt-5">
     <div>
          <div class="container py-5 aksiya ">
         <div class="row ">  
