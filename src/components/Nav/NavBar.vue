@@ -1,5 +1,4 @@
 <template>
-    <div class="container-fluid">
      <nav class="navbar navbar-expand-lg bg-light">
       <div class="container">
         <router-link to="/" class="navbar-brand"><img src="@/assets/imgs/Лого.png" alt="Logo"></router-link>
@@ -13,13 +12,13 @@
             <router-link to="buy" class="nav-link active" aria-current="page">Как покупать</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Распродажи</a>
+              <router-link to="raspradaja" class="nav-link" href="#">Распродажи</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Цены</a>
+              <router-link to="Cost" class="nav-link" href="#">Цены</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">Помощь</a>
+              <router-link to="help" class="nav-link " href="#">Помощь</router-link>
             </li>
             <li class="nav-item">
               <a class="nav-link " href="#">Бонусы</a>
@@ -39,7 +38,7 @@
         </div>
       </div>
     </nav>
-    </div>
+    
 </template>
 
 <script>
@@ -52,5 +51,4 @@ export default {
 </script>
 
 <style>
-    
 </style>

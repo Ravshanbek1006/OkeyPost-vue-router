@@ -20,7 +20,7 @@
   <servis-section></servis-section>
 
   <gradient-box>
-     <div class="row ">
+     <div class="row py-5 ">
            <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center align-items-center">
             <img width="100%" style="object-fit:cover ;" src="@/assets/imgs/fon-img.png" alt="icon">
           </div>
