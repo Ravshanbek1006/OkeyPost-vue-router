@@ -1,5 +1,5 @@
 <template>
-    <div class="economy container">
+    <div class="economy container my-5 py-5">
         <h3 class=" text-lg-start text-md-center ">Покупать в Великобритании очень просто</h3>
         <div class="row">
             <div class="col-8">

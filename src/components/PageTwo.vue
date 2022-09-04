@@ -4,7 +4,7 @@
       <div class="economy">
         <div class="container py-5">
           <span><a href="#">Главная </a>/<a href="#"> Как покупать</a></span>
-          <h3 style="color: #fff">Научим покупать вВеликобритании!</h3>
+          <h3 style="color: #fff">Научим покупать в Великобритании!</h3>
           <p>и экономить до 70%</p>
 
           <div class="m-box">
@@ -14,7 +14,7 @@
       </div>
     </gradient-box>
 
-    <economy-buy></economy-buy>
+    <economy-buy class="my-5"> </economy-buy>
 
     <gradient-box>
          <div class="container py-4">

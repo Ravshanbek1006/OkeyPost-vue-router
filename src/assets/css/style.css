@@ -30,7 +30,12 @@ h3 {
   position: sticky;
   top: 0;
   left: 0;
-  z-index: 2;
+}
+
+nav button i {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 nav a {
@@ -171,10 +176,16 @@ section .box-1 p {
 
 .tab-content {
   width: 100%;
-  background-color: #40B8EA;
+  background-color: #fff;
   min-height: 75vh;
   margin: 10px;
   display: none;
+}
+
+.tab-content img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .tab-content.active {
@@ -370,6 +381,10 @@ footer a {
   color: #00C97B !important;
 }
 
+.cost > div {
+  margin-top: 30px;
+}
+
 .cost h4 {
   font-weight: 700;
   font-size: 24px;
@@ -482,6 +497,78 @@ footer a {
   text-align: start;
 }
 
+.bonus-box img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.bonus-box h6 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #1F2428;
+}
+
+.bonus-box p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.blog img {
+  width: 100%;
+  height: auto;
+}
+
+.blog h6 {
+  font-size: 22px;
+  font-weight: 700;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.magazin-item {
+  padding: 10px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid #fff;
+  transition: all 0.3s ease;
+  border-radius: 16px;
+  margin-top: 50px;
+}
+
+.magazin-item img {
+  width: 170px;
+  height: auto;
+  object-fit: cover;
+}
+
+.magazin-item h6 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.magazin-item:hover {
+  border: 3px solid #0c92cb;
+  transform: scale(1.05);
+}
+
+.magazin-img {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flag {
+  width: 100%;
+  margin-top: 10px;
+}
+
 @media screen and (max-width: 992px) {
   nav form {
     margin-bottom: 20px;
@@ -575,6 +662,19 @@ footer a {
   .blackfriday p {
     text-align: start;
   }
+  .bonus-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .tab-content > div > div {
+    margin-top: 50px;
+  }
+  .blog > div > div {
+    margin-top: 40px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -613,6 +713,12 @@ footer a {
   }
   .marketing h3, h6, p {
     text-align: center;
+  }
+  .dastavka .box-item {
+    margin-top: 40px;
+  }
+  .dastavka button {
+    margin-top: 40px;
   }
   .m-box {
     display: flex;
@@ -669,6 +775,18 @@ footer a {
   }
   .blackfriday p {
     text-align: center;
+  }
+  .tab-item-1 {
+    order: 2;
+  }
+  .tab-item-2 {
+    order: 1;
+  }
+  .tab-item-3 {
+    order: 3;
+  }
+  .tab-content > div > div {
+    margin-top: 30px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
