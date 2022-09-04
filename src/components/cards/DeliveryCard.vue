@@ -39,7 +39,7 @@
           </div>
           <div class="box-item">
             <h6>Вес посылки:</h6>
-            <label for="Вес"><img src="imgs/Barbell.png" alt="icon" style="width: 20px ;"></label>
+            <label for="Вес"><img src="@/assets/imgs/Barbell.png" alt="icon" style="width: 20px ;"></label>
             <input type="text" name="Вес" id="Вес" placeholder="0,5">
             <hr>
           </div>

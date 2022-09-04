@@ -24,14 +24,14 @@
            <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center align-items-center">
             <img width="100%" style="object-fit:cover ;" src="@/assets/imgs/fon-img.png" alt="icon">
           </div>
-          <div class="col-lg-8 col-md-8 col-sm12  p-5 ">
+          <div class="col-lg-8 col-md-8 col-sm-12  p-5 d-flex flex-column justify-content-center ">
             <h4>
               Поручите нашим мастерам шопинга оформить заказы в английских магазинах и освободите время для более важных
               дел.
             </h4>
             <p style="margin-top:20px; text-align: start;">Такой способ покупки также подойдёт, если магазин принимает только английские
               карты.</p>
-            <div class="m-box"><button class="btn-okey ">Попробовать </button></div>
+            <button-btn>Попробовать</button-btn>
           </div>
         </div>
   </gradient-box>

@@ -15,5 +15,9 @@ export default {
 </script>
 
 <style>
+.gradient-box h4{
+  font-size: 30px;
+  font-weight: 700;
+}
 
 </style>

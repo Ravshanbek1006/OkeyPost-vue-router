@@ -32,6 +32,11 @@ h3 {
   left: 0;
 }
 
+nav {
+  position: sticky;
+  z-index: 3 !important;
+}
+
 nav button i {
   font-size: 40px;
   font-weight: 700;
@@ -49,10 +54,13 @@ nav a:hover {
   color: #00C97B !important;
 }
 
-nav i {
+nav  i {
   font-size: 15px;
-  font-weight: 600;
+  font-weight:600 !important;
   color: #1F2428 !important;
+}
+nav li{
+  font-weight: 700;
 }
 
 .gradient-box {

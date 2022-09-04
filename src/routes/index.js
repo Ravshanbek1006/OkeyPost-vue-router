@@ -7,6 +7,9 @@ import PageTwo from "@/components/PageTwo.vue"
 import PageRaspradaje from "@/components/PageRaspradaje.vue"
 import PageCost from "@/components/PageCost.vue"
 import PageHelp from "@/components/PageHelp.vue"
+import PageBonus from "@/components/PageBonus.vue"
+import PageMagazin from "@/components/PageMagazin.vue"
+import PageBlog from "@/components/PageBlog.vue"
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
@@ -40,7 +43,23 @@ const routes = [
         path:"/help",
         component:PageHelp,
         name:"help"
+    },
+    {
+        path:"/bonus",
+        component:PageBonus,
+        name:"Pagebonus"
+    },
+    {
+        path:"/magazin",
+        component:PageMagazin,
+        name:"Magazin  "
+    },
+    {
+        path:"/blog",
+        component:PageBlog,
+        name:"Blog"
     }
+
 ]
 
 const router = new Router({

@@ -21,13 +21,13 @@
               <router-link to="help" class="nav-link " href="#">Помощь</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">Бонусы</a>
+              <router-link to="bonus" class="nav-link " href="#">Бонусы</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">Блог</a>
+              <router-link to="blog" class="nav-link " href="#">Блог</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">Магазины</a>
+              <router-link to="magazin" class="nav-link " href="#">Магазины</router-link>
             </li>
 
           </ul>
