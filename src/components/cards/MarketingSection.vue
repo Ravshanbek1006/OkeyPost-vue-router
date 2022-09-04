@@ -4,22 +4,22 @@
     <div class="row d-flex g-4">
       <div class="m-box col-lg-3 col-md-6 col-sm-12">
         <img src="@/assets/imgs/Иллюстрация 0.png" alt="rasm topilmadi">
-        <h6> ВЫ ВЫБИРАЕТЕ ТОВАР</h6>
+        <h6 class="t-c-md"> ВЫ ВЫБИРАЕТЕ ТОВАР</h6>
         <p>в английском магазине, оплачиваете и указываете адрес склада OkeyPost</p>
       </div>
       <div class="m-box col-lg-3 col-md-6 col-sm-12">
         <img src="@/assets/imgs/Иллюстрация (1).png" alt="rasm topilmadi">
-        <h6>ПОКУПКИ ПРИХОДЯТ НА СКЛАД</h6>
+        <h6 class="t-c-md">ПОКУПКИ ПРИХОДЯТ НА СКЛАД</h6>
         <p>и появляются в вашем личном кабинете на нашем сайте</p>
       </div>
       <div class="m-box col-lg-3 col-md-6 col-sm-12">
         <img src="@/assets/imgs/Иллюстрация (2).png" alt="rasm topilmadi">
-        <h6>ОТПРАВЛЯЕМ ИХ К ВАМ ДОМОЙ</h6>
+        <h6 class="t-c-md">ОТПРАВЛЯЕМ ИХ К ВАМ ДОМОЙ</h6>
         <p>в надежной упаковке, по выгодной цене и очень быстро</p>
       </div>
       <div class="m-box col-lg-3 col-md-6 col-sm-12">
         <img src="@/assets/imgs/Иллюстрация (3).png" alt="rasm topilmadi">
-        <h6>ЗАБИРАЕТЕ свою ПОСЫЛКУ</h6>
+        <h6 class="t-c-md">ЗАБИРАЕТЕ свою ПОСЫЛКУ</h6>
         <p>в пункте выдачи, на почте или с курьером</p>
       </div>
     </div>

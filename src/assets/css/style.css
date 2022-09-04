@@ -594,8 +594,10 @@ footer a {
     font-size: 1.5rem !important;
   }
   header h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-top: 20px;
+    text-align: center;
+    margin-top: 30px;
   }
   header p {
     font-size: 1.2rem;
@@ -603,6 +605,11 @@ footer a {
   .servises .border-r {
     border: none;
     margin-bottom: 20px;
+  }
+  .btn-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .variant {
     text-align: center;
@@ -682,6 +689,9 @@ footer a {
   }
   .blog > div > div {
     margin-top: 40px;
+  }
+  .t-c-md{
+    text-align: center;
   }
 }
 
@@ -795,6 +805,9 @@ footer a {
   }
   .tab-content > div > div {
     margin-top: 30px;
+  }
+  .t-c-sm{
+    text-align: center;
   }
 }
 /*# sourceMappingURL=styles.css.map */

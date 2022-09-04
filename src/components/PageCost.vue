@@ -173,7 +173,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center p-5">
                         <img src="@/assets/imgs/uslugs.png" alt="icon">
                     </div>
-                    <div class="col-lg-8 col-md-6 col-sm12 d-flex flex-column justify-content-center p-5 ">
+                    <div class="col-lg-8 col-md-6 col-sm12 d-flex flex-column justify-content-center p-4 ">
                         <h4>
                             Попробуйте заказывать с оператором прямо сейчас. Пришлите ссылку на товар, его купят и
                             доставят на наш склад в кратчайшие сроки.

@@ -3,9 +3,9 @@
        <gradient-box>
          <div class="container-fluid economy">
             <div class="container p-5">
-                <span><a href="index.html">Главная </a> / <a href="#"> Бонусы и партнёрская программа</a></span>
+                <span class="t-c-sm "><a href="index.html">Главная </a> / <a href="#"> Бонусы и партнёрская программа</a></span>
                 <h3 style="color: #fff;" class="mt-4">Бонусы и партнёрская программа</h3>
-                <h5 style="font-weight:700; font-size: 24px;">Платим $3 с каждой отправленной посылки </h5>
+                <h5 class="t-c-sm" style="font-weight:700; font-size: 24px;">Платим $3 с каждой отправленной посылки </h5>
                 <button-btn class="mt-4">Начать зарабатывать</button-btn>
             </div>
         </div>
@@ -54,10 +54,10 @@
                         <img width="100%" style="object-fit:cover ;" src="@/assets/imgs/bonus-10.png" alt="icon">
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-12 d-flex justify-content-center  flex-column p-5 ">
-                        <h4 style="font-size: 48px; font-weight: 800;">
+                        <h4 class="t-c-sm text-md-start" style="font-size: 48px; font-weight: 800;">
                             Готовы начать зарабатывать вместе с нами?   
                         </h4>
-                        <p style="margin-top:20px; text-align: start;">Присоединяйтесь к партнерской программе
+                        <p class="t-c-sm text-md-start" style="margin-top:20px;">Присоединяйтесь к партнерской программе
                             Okeypost.com уже сегодня!</p>
                         <div class="m-box"><button class="btn-okey ">Попробовать </button></div>
                     </div>
